@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>special Design</title>
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/ca825dfbdd.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/normaliz.css" />
+    <link rel="stylesheet" href="./css/master.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+    />
+    <!-- داخل <head> -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- start setting box -->
+    <div class="setting-box">
+      <div class="toggle-settings">
+        <i class="fa fa-gear"></i>
+      </div>
+      <div class="setting-container">
+        <div class="option-box">
+          <h4>Colors</h4>
+          <ul class="color-list">
+            <li class="active" data-color="rgb(8, 51, 243)"></li>
+            <li data-color="rgb(0, 255, 170)"></li>
+            <li data-color="rgb(255, 196, 0)"></li>
+            <li data-color="rgb(148, 0, 247)"></li>
+            <li data-color="rgb(242, 0, 250)"></li>
+          </ul>
+        </div>
+        <div class="option-box">
+          <h4>Random Background</h4>
+          <div class="random-background">
+            <span class="yes active" data-background="yes">Yes</span>
+            <span class="no" data-background="no">No</span>
+          </div>
+        </div>
+        <div class="option-box">
+          <h4>show bullets</h4>
+          <div class="bullets-option">
+            <span class="yes active" data-display="show">Yes</span>
+            <span class="no" data-display="hide">No</span>
+          </div>
+        </div>
+        <button class="reset-option">Reset Options</button>
+      </div>
+    </div>
+    <!-- end setting box -->
+    <!-- Start nave bullet -->
+    <div class="nav-bullets">
+      <div class="bullet" data-section=".about-us">
+        <div class="tooltip">About us</div>
+      </div>
+      <div class="bullet" data-section=".our-skills">
+        <div class="tooltip">Our Skills</div>
+      </div>
+      <div class="bullet" data-section=".gallary">
+        <div class="tooltip">Our Gallery</div>
+      </div>
+      <div class="bullet" data-section=".features">
+        <div class="tooltip">Our Features</div>
+      </div>
+      <div class="bullet" data-section=".timeline">
+        <div class="tooltip">Timline</div>
+      </div>
+      <div class="bullet" data-section=".testimonials">
+        <div class="tooltip">Testimonials</div>
+      </div>
+    </div>
+    <!-- Start nave bullet -->
+    <!-- start landing page -->
+    <div class="landing-page">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="headar-area">
+          <img
+            src="image/gomaa-high-resolution-logo__1_-removebg-preview.png"
+            srcset=""
+          />
+          <div class="links-container">
+            <ul class="links">
+              <div class="toggle-container">
+                <button class="dark-toggle">
+                  <span class="toggle-icon">☀</span>
+                </button>
+              </div>
+              <li><a href="#" data-section=".about-us">About</a></li>
+              <li><a href="#" data-section=".our-skills">Skills</a></li>
+
+              <li><a href="#" data-section=".timeline">Timeline</a></li>
+              <li><a href="#" data-section=".features">Features</a></li>
+              <li><a href="#" data-section=".testimonials">Testimonials</a></li>
+            </ul>
+            <button class="toggle-menu">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="introduction-text">
+        <h1>We Are <span>Creative</span> Agency</h1>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
+          pariatur dicta ipsum est enim quos fugiat ducimus
+        </p>
+      </div>
+    </div>
+    <!-- end landign page -->
+    <!-- start About us -->
+    <div class="container">
+      <div class="about-us" data-aos="fade-up">
+        <div class="info">
+          <h2>About us</h2>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente
+            hic error totam delectus quia quo deleniti explicabo, magnam libero
+            architecto sequi facere ab laudantium! Saepe quo reprehenderit iste
+            dolorem asperiores.
+          </p>
+        </div>
+        <div class="iamge-box">
+          <img src="image/luffy-8k-gear-5-5k-1920x1080-13561.jpg" />
+        </div>
+      </div>
+    </div>
+    <!-- end About us -->
+    <!-- start our skills -->
+
+    <div
+      class="our-skills"
+      data-aos="slide-up"
+      data-aos-duration="1000"
+      data-aos-delay="50"
+    >
+      <div class="container">
+        <h2>Our Skills</h2>
+        <div class="skill-box">
+          <div class="skill-name">HTML</div>
+          <div class="skill-progress">
+            <span data-progress="85%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">CSS</div>
+          <div class="skill-progress">
+            <span data-progress="65%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">JavaScript</div>
+          <div class="skill-progress">
+            <span data-progress="90%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">C++</div>
+          <div class="skill-progress">
+            <span data-progress="75%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">OOP</div>
+          <div class="skill-progress">
+            <span data-progress="70%"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end our skills -->
+    <!-- start our Galary -->
+    <div
+      class="gallary"
+      data-aos="zoom-in-up"
+      data-aos-duration="1000"
+      data-aos-delay="50"
+    >
+      <div class="container">
+        <h2>Our Gallery</h2>
+        <div class="image-box">
+          <img src="image/010.png" alt="image one" srcset="" />
+          <img src="image/09.png" alt="image two" srcset="" />
+          <img src="image/09.jpg" alt="image three" srcset="" />
+          <img src="image/08.jpg" alt="image four" srcset="" />
+          <img src="image/07.jpg" alt="image five" srcset="" />
+          <img src="image/06.jpg" alt="" srcset="" />
+          <img src="image/05.jpg" alt="" srcset="" />
+          <img src="image/04.jpg" alt="" srcset="" />
+          <img src="image/01.jpg" alt="" srcset="" />
+          <img src="image/02.png" alt="" srcset="" />
+        </div>
+      </div>
+    </div>
+    <!-- end Galary -->
+
+    <!-- start timeline  -->
+    <div class="timeline">
+      <div class="container">
+        <div class="timeline-content">
+          <div class="year">2025</div>
+          <div
+            class="left"
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+          >
+            <div class="content">
+              <h3>Testing Heading</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Exercitationem, qui eos. Rerum facere aut autem quibusdam
+                eveniet, voluptatum aspernatur repudiandae fuga repellat sit.
+                Voluptate quidem omnis assumenda ad, quibusdam libero.
+              </p>
+            </div>
+          </div>
+          <div class="clear-fix"></div>
+          <div
+            class="right"
+            data-aos="fade-left"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+          >
+            <div class="content">
+              <h3>Testing Heading</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Exercitationem, qui eos. Rerum facere aut autem quibusdam
+                eveniet, voluptatum aspernatur repudiandae fuga repellat sit.
+                Voluptate quidem omnis assumenda ad, quibusdam libero.
+              </p>
+            </div>
+          </div>
+          <div class="clear-fix"></div>
+          <div class="year">2024</div>
+          <div
+            class="left"
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+          >
+            <div class="content">
+              <h3>Testing Heading</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Exercitationem, qui eos. Rerum facere aut autem quibusdam
+                eveniet, voluptatum aspernatur repudiandae fuga repellat sit.
+                Voluptate quidem omnis assumenda ad, quibusdam libero.
+              </p>
+            </div>
+          </div>
+          <div class="clear-fix"></div>
+          <div
+            class="right"
+            data-aos="fade-left"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+          >
+            <div class="content">
+              <h3>Testing Heading</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Exercitationem, qui eos. Rerum facere aut autem quibusdam
+                eveniet, voluptatum aspernatur repudiandae fuga repellat sit.
+                Voluptate quidem omnis assumenda ad, quibusdam libero.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end timeline -->
+    <!-- start our feature -->
+    <div
+      class="features"
+      data-aos="fade-up"
+      data-aos-anchor-placement="top-center"
+    >
+      <h2>Our Features</h2>
+      <div class="container">
+        <div class="feat-box">
+          <img src="image/01.jpg" alt="" />
+          <h4>Front-End</h4>
+          <p>
+            Im the best frontend developer from the two years and i try try
+            every day and im try to become the number 0
+          </p>
+        </div>
+        <div class="feat-box">
+          <img src="image/02.png" alt="" />
+          <h4>Front-End</h4>
+          <p>
+            Im the best frontend developer from the two years and i try try
+            every day and im try to become the number 0
+          </p>
+        </div>
+        <div class="feat-box">
+          <img src="image/03.jpg" alt="" />
+          <h4>Front-End</h4>
+          <p>
+            Im the best frontend developer from the two years and i try try
+            every day and im try to become the number 0
+          </p>
+        </div>
+        <div class="feat-box">
+          <img src="image/04.jpg" alt="" />
+          <h4>Front-End</h4>
+          <p>
+            Im the best frontend developer from the two years and i try try
+            every day and im try to become the number 0
+          </p>
+        </div>
+        <div class="feat-box">
+          <img src="image/05.jpg" alt="" />
+          <h4>Front-End</h4>
+          <p>
+            Im the best frontend developer from the two years and i try try
+            every day and im try to become the number 0
+          </p>
+        </div>
+        <div class="feat-box">
+          <img src="image/06.jpg" alt="" />
+          <h4>Front-End</h4>
+          <p>
+            Im the best frontend developer from the two years and i try try
+            every day and im try to become the number 0
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- end our feature -->
+    <!-- start testimonials -->
+    <div class="testimonials">
+      <div class="container">
+        <h2>Testimonials</h2>
+        <div
+          class="ts-box"
+          data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="1000"
+        >
+          <p>
+            im very happy with you boro how old you in the flay work work work
+          </p>
+          <div class="person-info">
+            <img
+              src="image/WhatsApp Image 2025-03-31 at 16.16.41_a6c3e77e.jpg"
+              alt=""
+            />
+            <h4>Gomaa Go</h4>
+            <p>CEO At Company</p>
+          </div>
+        </div>
+        <div
+          class="ts-box"
+          data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="1000"
+        >
+          <p>
+            im very happy with you boro how old you in the flay work work work
+          </p>
+          <div class="person-info">
+            <img
+              src="image/WhatsApp Image 2025-03-31 at 16.16.41_a6c3e77e.jpg"
+              alt=""
+            />
+            <h4>Adam Rezq</h4>
+            <p>CEO At Company</p>
+          </div>
+        </div>
+        <div
+          class="ts-box"
+          data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="1000"
+        >
+          <p>
+            im very happy with you borl hwo old you in the flays work work work
+          </p>
+          <div class="person-info">
+            <img
+              src="image/WhatsApp Image 2025-03-31 at 16.16.41_a6c3e77e.jpg"
+              alt=""
+            />
+            <h4>Aseel Abderahman</h4>
+            <p>CEO At Company</p>
+          </div>
+        </div>
+      </div>
+      <div class="clear-fix"></div>
+    </div>
+    <!-- end testimonials -->
+    <!-- start contact us -->
+    <div class="contact">
+      <div class="overlay"></div>
+      <div class="container">
+        <h2>Contact us</h2>
+        <form
+          action="mailto:messiiiil676@gmail.com"
+          method="post"
+          enctype="text/plain"
+        >
+          <div class="left">
+            <input type="text" placeholder="your name" name="username" />
+            <input type="text" placeholder="your phone" name="phone" />
+            <input type="email" placeholder="your email" name="email" />
+            <input type="text" placeholder="subject" name="subject" />
+          </div>
+          <div class="right">
+            <textarea name="message" placeholder="your message"></textarea>
+            <input type="submit" value="send" />
+          </div>
+        </form>
+      </div>
+    </div>
+    <!-- End contact us -->
+    <!-- start footer -->
+    <div class="footer">
+      <div class="container">
+        <div class="icon-container" data-aos="fade-up" data-aos-anchor-placement=" center">
+          <i class="fa-brands fa-facebook fc"></i>
+          <i class="fa-solid fa-x x"></i>
+          <i class="fa-brands fa-linkedin-in lin"></i>
+          <i class="fa-brands fa-instagram inst"></i>
+        </div>
+        <h3   >
+          &copy; Gomaa | 2025
+        </h3>
+      </div>
+    </div>
+    <!-- end footer -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="./js/master.js"></script>
+  </body>
+</html>
